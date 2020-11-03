@@ -21,7 +21,7 @@ After a peer has all file chunks, it combines them for a single file.
 
 A peer MUST output its activity to its console whenever it receives a chunk, sends a chunk, receives a chunk ID list, sends out a chunk ID list, requests for chunks, or receives such a request.
 
-To run, 
+Respectively run fileowner and each peer, e.g. 5, 
 
 java fileOwner fileOwner_port file_path
 
